@@ -1,0 +1,20 @@
+bool CheckAnagram(char str[], char str2[])
+{
+	int i = 0;
+
+	while (sizeof(str)>i)
+	{
+		if (str[i] != str2[i])
+		{
+			return false;
+			break;
+		}
+		else
+		{
+			i++;
+		}
+	}
+
+
+	return true;
+}
